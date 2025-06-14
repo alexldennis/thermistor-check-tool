@@ -167,5 +167,5 @@ void operationLoop(ntc::NTC_Thermistor sensor)
 int main()
 {
 	operationLoop(ntc::createNewSensor(startLoop()));
-    return 0;
+	return 0;
 }
