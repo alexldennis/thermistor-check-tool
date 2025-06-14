@@ -72,12 +72,12 @@ namespace ntc
 	
 	void printHeader();
 	ntc::NTC_Thermistor createNewSensor(int selection);
-    double fahrenheitToCelsius(double temperature_fahrenheit);
-    double celsiusToFahrenheit(double temperature_celsius);
-    double kelvinToCelsius(double temperature_kelvin);
-    double celsiusToKelvin(double temperature_celsius);
-    int calculateBeta(double r1, double r2, double t1, double t2);
-    void printThermistorSpecs(NTC_Thermistor *sensor);
+	double fahrenheitToCelsius(double temperature_fahrenheit);
+	double celsiusToFahrenheit(double temperature_celsius);
+	double kelvinToCelsius(double temperature_kelvin);
+	double celsiusToKelvin(double temperature_celsius);
+	int calculateBeta(double r1, double r2, double t1, double t2);
+	void printThermistorSpecs(NTC_Thermistor *sensor);
 }
 
 #endif
